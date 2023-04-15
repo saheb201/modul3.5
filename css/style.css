@@ -1,0 +1,143 @@
+body{}
+/*menu*/
+.menu{
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    background: #0000ff2e;
+}
+.logo{
+    width: 40%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menucontent{
+ width: 60%;
+ 
+}
+.menucontent ul{}
+.menucontent ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 20px;
+}
+.menucontent ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.menucontent ul li a a:hover{}
+/*banar*/
+.banar{
+    display: inline-flex;
+    height: 400px;
+    width: 100%;
+    background: #000000;
+    color: aliceblue;
+}
+.banarContent{
+    width: 50%;
+  text-align: center;
+}
+.banarContent h1{
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 58px;
+}
+.banarContent p{
+    text-align: start;
+    font-size: 18px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+}
+.banarContent button{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 14px;
+ 
+
+
+}
+
+.banarImg{
+ width: 50%;
+}
+.banarImg img{
+    width: 100%;
+    height: 100%;
+}
+/*aboutus*/
+.aboutus{
+    width: 100%;
+}
+.aboutContent{
+    text-align: center;
+}
+.aboutContent h1{
+    font-size: 35px;
+}
+
+.aboutHead{
+   
+}
+.ahOne {
+    width: 20%;
+    text-align: start;
+}
+.ahTwo{
+    width: 20%;
+    text-align: end;
+    position: relative;
+    right: -60%;
+    top: 0;
+}
+
+.aboutImg{
+   
+    width: 60%;
+   
+    display: block;
+    background: red;
+    position: relative;
+    top: -150px;
+    left: 20%;
+}
+
+
+.aboutImg img{
+    width: 100%;
+
+}
+.ahThree{
+   
+    width: 20%;
+    text-align: start;
+    position: relative;
+    top: -380px;
+    left: 0;
+
+}
+.ahFour{
+    
+    width: 20%;
+    text-align: start;
+    position: relative;
+    bottom: 0;
+    left: 0;
+
+}
+.ahFour{
+    width: 20%;
+    text-align: end;
+    position: relative;
+    left: 60%;
+    top: -380px;
+
+}
